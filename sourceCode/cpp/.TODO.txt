@@ -1,0 +1,43 @@
+
+
+changing_map        ->  implementa un porco dio di mega switch case che cambia la mappa in base alle coordinate e 
+                        allo stato in cui il personaggio si trova  
+
+taking_damage       ->  implementa delle texture con dei rettangoli in che fungono da ostacoli
+
+losing_stamina      ->  implementa un sistema di scatto o roll con cui il giocatore può schifare i colpi
+                        avversari (da fare) che consumi un tot di stamina.
+
+losing_mana         ->  implementa skill che consumano mana oltre agli attacchi melee (i quali consumano stamina).
+                        In totale saranno 3 skill equipaggiabili (le skill possono essere di fuoco, fulmine o veleno).
+
+stats_RPG_system    ->  implementa un sistema di statistiche che influnzano i dati del giocatore (hp massimi, stamina massima, ecc.)
+                        Attributi da impelementare:
+                            1. vigore       (aumenta hp massimi)
+                            2. tempra       (aumenta stamina massima)
+                            3. mente        (aumenta mana massimo)
+                            4. forza        (aumenta danno fisico)
+                            5. intelligenza (aumenta danno da fuoco)
+                            6. fede         (aumenta danno fulmine)
+                            7. arcano       (aumenta danno veleno)
+
+                        Per aumentare queste statistiche (cap 99) serviranno dei punti chiamati "BIT", otenuti esclusivamente
+                        uccidendo nemici / boss. 
+
+
+enemis              ->  implementare dei nemici in grado di muoversi e attaccare il giocatore. 
+                        Nemici da implementare:
+                            1. i bidelli            (danno fisico basso) -> (nemcici lenti e deboli)
+                            2. primini sulle scale  (danno da veleno basso   (33 poison buildup) ) -> (nemici veloci e deboli)
+                            3. le 5 di meccanica    (danno da fulmine medio) -> (nemici lenti e forti)
+                            4. professore generico  (danno da fuoco     (33 burning buildup) ) -> (nemici veloci e forti)
+
+                        Saranno inoltre presenti dei BOSS nel gioco sia obbligatori che opzionali che danno tantissimi BIT.
+                        Boss figth da implementare.
+                            1. Mezzadrelli Alessandro           -> aula 33
+                            2. Bombana Benedetta                -> aula 12
+                            3. Benatti Emanuele                 -> aula 380 
+                            4. Alfieri Andrea & Secchi Barbara  -> aula 380 (bossfigth doppia)
+                            5. Arena Pasquale & Desina Arturo   -> aula 522 (bossfigth doppia)
+                            6. Bigliardi Lorenzo                -> aula 46
+                            
