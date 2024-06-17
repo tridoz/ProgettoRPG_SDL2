@@ -76,7 +76,7 @@ class enemy{
             for(std::vector<weapon>::size_type i = 0 ; i<to_check.size() ; i++){
                 if( SDL_HasIntersection( &to_check[i].weapon_rect , &enemy_rect )){
                     healt -= to_check[i].damage;
-
+                    to_check.erase(to_check.begin() + i );
                 }
 
                 if(healt <= 0){
@@ -170,6 +170,7 @@ class player{
 
                 if( SDL_HasIntersection( &to_check[i].weapon_rect , &player_rectangle )){
                     healt -= to_check[i].damage;
+                    to_check.erase( to_check.begin() + i );
                 }
 
                 if(healt <= 0){
