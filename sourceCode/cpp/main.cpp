@@ -158,10 +158,6 @@ void print_memory_data(){
     printf("size of enemy[%ld]",enemies.size());
 }
 
-void set_texts(){
-    stringstream ss;
-
-}
 
 void print_projectiles(){
     for(std::vector<enemy>::size_type i = 0 ; i<weapon_displaced_by_player.size() ; i++){
